@@ -5,20 +5,36 @@
     "jest": true
   },
   "extends": [
+<<<<<<< HEAD
     "prettier/@typescript-eslint",
     "plugin:prettier/recommended",
     "airbnb-base",
     "plugin:@typescript-eslint/recommended"
   ],
+=======
+    "airbnb-base",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+>>>>>>> 4842b80e13e31d25dd3ab363580984b34c38e635
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
+<<<<<<< HEAD
   "plugins": [
     "prettier",
     "@typescript-eslint"
   ],
+=======
+  "plugins": ["@typescript-eslint", "prettier"],
+>>>>>>> 4842b80e13e31d25dd3ab363580984b34c38e635
   "rules": {
     "prettier/prettier": "error",
     "import/extensions": [
