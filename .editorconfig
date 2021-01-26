@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# EditorConfig is awesome: https://EditorConfig.org
-
-# top-most EditorConfig file
-=======
->>>>>>> 4842b80e13e31d25dd3ab363580984b34c38e635
 root = true
 
 [*]
